@@ -4,18 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilos.css" rel="stylesheet" type="text/css">
     <title>Document</title>
+    <link href="./css/estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="header">
-        <ul class="nav">
-        <li><a href="#">INICIO</a></li>
-        <li><a href="Integrantes.html">INTEGRANTES</a></li>
-        <li><a href="Media.html">MEDIAS</a></li>
-        <li><a href="Blog.html">BLOGS</a></li>
-        <li><a href="Foro.html">FOROS</a></li>
-        </ul>
+    <header class="cabezera">
+        <div>
+            <div class="logo">
+                <H1><img width="250px" height="75px" src="./imagenes/Logo.jpeg"></H1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <!--<li><input type="button" value="Buscar" class="boton"></li>--->                    
+                </ul>
+            </nav>            
         </div>
+    </header>
+    <section id=main class="contenedor">
+        <section class="cajaprincipal">
+            <header class="cursos">
+                <h1>Capacitación, Asesoria y Cursos Online</h1>                
+                <div clas="listacursos">
+                    <h2>Lista de Cursos</h2>
+                    <br>
+                    <p><ol>
+                        <li>GESTIÓN DE RIESGO EN LABORATORIO DE ENSAYO SEGÚN LA NORMA ISO/IEC: 17025</li>
+                        <li>VALIDACIÓN DE MÉTODOS DE ENSAYO CUALITATIVOS</li>
+                        <li>GESTIÓN DE CALIDAD POR INDICADORES PARA UN LABORATORIO DE ENSAYO</li>
+                        <li>ASEGURAMIENTO DE CALIDAD DE RESULTADOS DE ENSAYO SEGÚN LA NORMA ISO/IEC 17025</li>
+                    </ol></p>
+                </div>
+            </header>
+        </section>
+        <section class="cajasecundaria">
+            <div class="nosotros">    
+                <div>
+                    <h2><u><strong>Sobre Nosotros</strong></u></h2>               
+                    <p>Somos una empresa se dedica a auditorias, consultorías y dictar cursos online, relacionados a las normas ISO 9001, 17025, 2200, DAFO, así como Gestión por procesos, etc. Para el desarrollo de guías e implementación de sistemas que permiten obtener estos certificados y la adecuación de los procesos de calidad al tipo de empresa.</p>
+                    <a style="color: white;"  href="https://grupo-nv.com/">Click Aqui</a>
+                </div>
+                <div>
+                    <h2><u><strong>Video sobre ISO 17025</strong></u></h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/58c4JMM8k9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2><u><strong>Galeria</strong></u></h2>
+                    <a href="index.html"><img src="imagenes/ISO1725.png"></a>
+                    <!---<img src="./imagenes/ISO1725.png" alt="">--->                    
+                    <!---<audio src="audios/audio-prueba.mp3" controls></audio>--->                    
+                </div>
+            </div>        
+        </section>
+    </section>    
 </body>
 </html>
