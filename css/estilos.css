@@ -1,14 +1,17 @@
 * {
     margin:0px;
     padding:0px;
-    /*background: rgb(18,31,61);
-    border: solid 1px #000;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    /*border: solid 1px #000;*/
 }
 #main{
-    background-color: rgb(63, 73, 117);
+    background-color:#3f4975;
     color: #ffffff;
 }
 
+.color1{
+    color: #76bf3d;
+}
 /*
 
 .cabezera{

@@ -17,8 +17,8 @@
             <a class="navbar-brand" href="index.html">
                 <img class="d-inline-block" src="imagenes/Logo.jpeg" alt="Logo NVConsulting" width="250" height="75">
             </a>             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                Menú
             </button>        
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">        
                 <div class="navbar-nav">
@@ -32,22 +32,32 @@
     </nav>                
     
     <div class="container-fluid" id="main">
-        <section>
+        <div id= "cursos">
             <header id="listacursos">
-                <h1>Capacitación, Asesoria y Cursos Online</h1>                
-                <div>
-                    <h2>Lista de Cursos</h2>                    
-                    <p><ol>
-                        <li>GESTIÓN DE RIESGO EN LABORATORIO DE ENSAYO SEGÚN LA NORMA ISO/IEC: 17025</li>
-                        <li>VALIDACIÓN DE MÉTODOS DE ENSAYO CUALITATIVOS</li>
-                        <li>GESTIÓN DE CALIDAD POR INDICADORES PARA UN LABORATORIO DE ENSAYO</li>
-                        <li>ASEGURAMIENTO DE CALIDAD DE RESULTADOS DE ENSAYO SEGÚN LA NORMA ISO/IEC 17025</li>
-                    </ol></p>
+                <div class="row">
+                    <h1 class="text-center">Capacitación, Asesoria y Cursos Online</h1>
+                    <img src="imagenes/fondo1.jpg" class="img-fluid" alt="">
+                </div> 
+                <div class="row">               
+                    <div class="col-8">
+                        <h2>Lista de Cursos</h2>                    
+                        <p><ol>
+                            <li>GESTIÓN DE RIESGO EN LABORATORIO DE ENSAYO SEGÚN LA NORMA ISO/IEC: 17025</li>
+                            <li>VALIDACIÓN DE MÉTODOS DE ENSAYO CUALITATIVOS</li>
+                            <li>GESTIÓN DE CALIDAD POR INDICADORES PARA UN LABORATORIO DE ENSAYO</li>
+                            <li>ASEGURAMIENTO DE CALIDAD DE RESULTADOS DE ENSAYO SEGÚN LA NORMA ISO/IEC 17025</li>
+                        </ol></p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/ISO1725.png" class="mx-auto d-block img-fluid" alt="">
+                        <img src="imagenes/ISO9001.png" class="mx-auto d-block img-fluid" alt="">
+                        <img src="imagenes/ISO22000.png" class="mx-auto d-block img-fluid" alt="">
+                    </div>
                 </div>
             </header>
-        </section>
-        <section>
-            <div>    
+        </div>
+        <div id="Nosotros" class="row">
+              
                 <div>
                     <h2><u><strong>Sobre Nosotros</strong></u></h2>               
                     <p>Somos una empresa se dedica a auditorias, consultorías y dictar cursos online, relacionados a las normas ISO 9001, 17025, 2200, DAFO, así como Gestión por procesos, etc. Para el desarrollo de guías e implementación de sistemas que permiten obtener estos certificados y la adecuación de los procesos de calidad al tipo de empresa.</p>
@@ -61,8 +71,8 @@
                     <!---<img src="./imagenes/ISO1725.png" alt="">--->                    
                     <!---<audio src="audios/audio-prueba.mp3" controls></audio>--->                    
                 </div>
-            </div>        
-        </section>
+            
+        </div>
     </div> 
     <script src="js/bootstrap.bundle.min.js"></script>   
     <script src="js/jquery-3.6.0.js"></script>
