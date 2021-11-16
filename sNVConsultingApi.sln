@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVConsultingApi", "NVConsultingApi\NVConsultingApi.csproj", "{CE91E078-0875-4E7A-80DF-EE589D094AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVConsultingMVC", "NVConsultingMVC\NVConsultingMVC.csproj", "{A7F2D3F3-5AEF-49F0-83E4-89D0535A613A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE91E078-0875-4E7A-80DF-EE589D094AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE91E078-0875-4E7A-80DF-EE589D094AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE91E078-0875-4E7A-80DF-EE589D094AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE91E078-0875-4E7A-80DF-EE589D094AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F2D3F3-5AEF-49F0-83E4-89D0535A613A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F2D3F3-5AEF-49F0-83E4-89D0535A613A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F2D3F3-5AEF-49F0-83E4-89D0535A613A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F2D3F3-5AEF-49F0-83E4-89D0535A613A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86A8E1B8-AA61-476E-B3BD-2358423AD6B5}
+	EndGlobalSection
+EndGlobal
