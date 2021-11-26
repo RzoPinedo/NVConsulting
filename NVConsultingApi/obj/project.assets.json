@@ -8474,19 +8474,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\i\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i\\Desktop\\sNVConsultingApi\\NVConsultingApi\\NVConsultingApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\CarpetasIDAT\\IV-Ciclo\\Evaluaciones\\Herramientas de Programación 2\\sNVConsultingApi\\NVConsultingApi\\NVConsultingApi.csproj",
       "projectName": "NVConsultingApi",
-      "projectPath": "C:\\Users\\i\\Desktop\\sNVConsultingApi\\NVConsultingApi\\NVConsultingApi.csproj",
-      "packagesPath": "C:\\Users\\i\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i\\Desktop\\sNVConsultingApi\\NVConsultingApi\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\CarpetasIDAT\\IV-Ciclo\\Evaluaciones\\Herramientas de Programación 2\\sNVConsultingApi\\NVConsultingApi\\NVConsultingApi.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\CarpetasIDAT\\IV-Ciclo\\Evaluaciones\\Herramientas de Programación 2\\sNVConsultingApi\\NVConsultingApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\i\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8545,7 +8545,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

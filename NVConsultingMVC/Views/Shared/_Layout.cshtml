@@ -6,29 +6,36 @@
     <title>@ViewData["Title"] - NVConsultingMVC</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e2b3f;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NVConsultingMVC</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/imagenes/Logo.jpeg" width="250" height="75" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <!--<li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Alumnos" asp-action="Index">Alumnos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Alumnos" asp-action="Index">Alumnos</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Cursos" asp-action="Index">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Cursos" asp-action="Index">Cursos</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Empleados" asp-action="Index">Empleados</a>
                         </li>
                     </ul>
                 </div>
@@ -41,14 +48,67 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="bg-dark text-white">
         <div class="container">
-            &copy; 2021 - NVConsultingMVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <nav class="row">
+                <!--Logo
+                <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center text-center">
+                    Novus Vicis Consulting Group SAC
+                </a>-->
+                <!--Menu-->
+                <ul class="col-4 list-unstyled text-center">
+                    <li class="font-weight-bold text-uppercase"></li>
+                    <li><a href="#" class="text-reset">Trabaja con nosotros</a></li>
+                    <li><a href="#" class="text-reset">Contactanos</a></li>
+                    <li><a href="#" class="text-reset">Ayuda y asistencia</a></li>
+                </ul>
+
+                <!--Menu 3-->
+                <ul class="col-4 list-unstyled text-center">
+                    <li class="font-weight-bold text-uppercase"></li>
+                    <li><a href="#" class="text-reset">Condiciones</a></li>
+                    <li><a href="#" class="text-reset">Politica de privacidad</a></li>
+                    <li><a href="#" class="text-reset">Mapa del sitio</a></li>
+                </ul>
+
+                <!--redes-->
+                <ul class="col-4 list-unstyled text-center">
+                    <p>Siguenos en: </p>
+                    <li class="social">
+                        <a href="https://www.facebook.com/nvconsulting" class="text-reset">
+                            <img src="imagenes/FB.png" class="redes">
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="text-reset">
+                            <img src="imagenes/IG.png" class="redes">
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="text-reset">
+                            <img src="imagenes/TW.png" class="redes">
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" class="text-reset">
+                            <img src="imagenes/YT.png" class="redes">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+        <div class=" row container-fluid  text-center p-3">
+            <p class="small">&copy; Todos los derechos reservados :: Novus Vicis Consulting Group SAC :: Perú 2021</p>
+        </div>
+        <!--Cambio de prueba: Juan-->
+        <!--Cambio de prueba: Marilin-->
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

@@ -175,13 +175,13 @@ namespace NVConsultingMVC.Controllers
         // POST: CategoriasController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Delete(VMCurso Cur)
+        public async Task<ActionResult> Delete(int id, IFormCollection collection)
         {
             try
             {
                 HttpClient client = new HttpClient();
 
-                client.BaseAddress = new Uri(this.BaseUrl + "/Delete" + Cur.IdCursos.ToString());
+                client.BaseAddress = new Uri(this.BaseUrl + "/" + id.ToString());
 
 
                 //StringContent content = new StringContent(JsonConvert.SerializeObject(Cat), Encoding.UTF8, "application/json");
@@ -189,12 +189,11 @@ namespace NVConsultingMVC.Controllers
 
                 if (resp.IsSuccessStatusCode)
                 {
-                    var readtask = resp.Content.ReadAsStringAsync().Result;
-                    Cur = JsonConvert.DeserializeObject<VMCurso>(readtask);
+                    return RedirectToAction(nameof(Index));
                 }
 
+                return View();
 
-                return RedirectToAction(nameof(Index));
             }
             catch
             {

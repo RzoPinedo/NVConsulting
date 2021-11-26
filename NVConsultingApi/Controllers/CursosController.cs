@@ -94,7 +94,7 @@ namespace NVConsultingApi.Controllers
         [HttpDelete("{id}")]
         public IActionResult Eliminar(int id)
         {
-            var obj = bd.Cursos.FirstOrDefault(P => P.IdCursos== id);
+            var obj = bd.Cursos.FirstOrDefault(P => P.IdCursos == id);
             if (obj == null)
             {
                 return NotFound();
