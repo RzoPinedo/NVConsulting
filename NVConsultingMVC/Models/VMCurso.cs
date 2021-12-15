@@ -9,8 +9,6 @@ namespace NVConsultingMVC.Models
     {
         public VMCurso()
         {
-            /* AlumnoCursos = new HashSet<AlumnoCurso>();
-             Pagos = new HashSet<Pago>();*/
         }
 
         public int IdCursos { get; set; }
@@ -21,8 +19,6 @@ namespace NVConsultingMVC.Models
         public decimal? PrecioCurso { get; set; }
         public int? IdEmpleados { get; set; }
 
-        /*public virtual Empleado IdEmpleadosNavigation { get; set; }
-        public virtual ICollection<AlumnoCurso> AlumnoCursos { get; set; }
-        public virtual ICollection<Pago> Pagos { get; set; }*/
+      
     }
 }

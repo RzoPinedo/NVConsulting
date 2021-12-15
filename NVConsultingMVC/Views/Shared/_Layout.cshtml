@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet">
 </head>
-<body>
+<body id="main">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0e2b3f;">
             <div class="container">
@@ -43,12 +42,12 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3 mt-3" >
             @RenderBody()
         </main>
     </div>
 
-    <footer class="bg-dark text-white">
+    <footer class="bg-dark text-white footer">
         <div class="container">
             <nav class="row">
                 <!--Logo

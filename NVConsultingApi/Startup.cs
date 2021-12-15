@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using NVConsultingApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace NVConsultingApi
 {
@@ -28,6 +29,10 @@ namespace NVConsultingApi
         {
             services.AddControllers();
             services.AddDbContext<DBNVConsultingContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DBNVConsultingConn")));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "NVConsultingApi", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +41,8 @@ namespace NVConsultingApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "NVConsultingApi v1"));
             }
 
             app.UseRouting();
